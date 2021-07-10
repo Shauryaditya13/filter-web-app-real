@@ -2,6 +2,7 @@ nosex="";
 nosey="";
 
 function preload() {
+    img=loadImage("https://i.postimg.cc/qMsN6zQD/m.png");
 }
 
 function setup() {
@@ -20,6 +21,8 @@ function TakaSnapshot() {
 
 function draw() {
     image(video,0,0,500,500);
+    image(img,nosex-30,nosey+10,50,30)
+
 }
 
 function modelloaded() {
